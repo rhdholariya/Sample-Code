@@ -1,11 +1,12 @@
 
-## About Laravel
+# First clone this repository, install the dependencies, and setup your .env file.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-# Run laravel command for project setup
-
+- git clone git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog
 - composer install
-- php artisan migrate
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Then create the necessary database.
+- php artisan db
+- create database blog
+- copy .env.example and rename .env
+- set DB_DATABASE name in .env file   
+- php artisan migrate
