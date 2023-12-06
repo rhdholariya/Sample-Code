@@ -1,0 +1,28 @@
+
+.product-card-body{
+    margin-bottom: 30px;
+    border: none;
+    transition: all .3s ease;
+    letter-spacing: .5px;
+    border-radius: 20px;
+    box-shadow: 0 0 21px #59667a26;
+}
+
+.product-img img{
+    height: 300px;
+    object-fit: contain;
+}
+
+.pro-slide-right img {
+    height: 120px;
+}
+
+.product-des-main .product-thumbnail .slide-box img {
+    object-fit: contain;
+}
+
+.product-page-main .pro-slide-right img {
+    width: auto;
+    height: 145px;
+    margin: auto;
+}
