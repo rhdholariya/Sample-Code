@@ -1,10 +1,10 @@
 
 # First clone this repository, install the dependencies, and setup your .env file.
 
-- git clone git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog
+- git clone git@github.com:rhdholariya/Stockman-Assessment.git
 - composer install
 
-# Then create the necessary database.
+# Create the database and follow below steps.
 - php artisan db
 - create database blog
 - copy .env.example and rename .env
